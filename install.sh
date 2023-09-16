@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -d "~/.vim/plugin" ]
+if ! [ -d "$HOME/.vim/plugin" ]
 then
   mkdir ~/.vim/plugin
 fi
